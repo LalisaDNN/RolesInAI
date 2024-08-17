@@ -24,4 +24,6 @@
 - Data Scientist
 - ML Project Manager
 
-## Definitions, Knowledge and Skills
+## Definitions
+
+## Knowledge and Skills

@@ -9,3 +9,19 @@
 - [6] https://moov.ai/en/blog/nine-critical-roles-for-a-successful-ai-project
 
 
+## Critical roles of an AI team
+![alt text](AIRoles.drawio.png)
+### Business side
+- Data Analyst
+- Domain Expert
+- Business Analyst / Customer Facing Roles
+### Technical side
+- Data Engineer
+- MLOps Engineer
+- ML Engineer
+- ML Researcher
+### Cross-section roles
+- Data Scientist
+- ML Project Manager
+
+## Definitions, Knowledge and Skills

@@ -7,6 +7,7 @@
 - [4] https://www.linkedin.com/pulse/what-does-ai-development-team-look-like-breakdown-roles-kushan-perera-84fge
 - [5] https://enterprisersproject.com/article/2019/6/how-staff-ai-team-11-key-roles
 - [6] https://moov.ai/en/blog/nine-critical-roles-for-a-successful-ai-project
+- [7] https://www.index.dev/blog/ideal-ai-team-structure
 
 
 ## Critical roles of an AI team

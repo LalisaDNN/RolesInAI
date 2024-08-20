@@ -1,14 +1,7 @@
 # Roles in an AI team
-
-### Surveyed links:
-- [1] https://fullstackdeeplearning.com/spring2021/lecture-13/
-- [2] https://www.linkedin.com/advice/0/what-most-important-roles-ai-project-team-5p0cf
-- [3] https://newxel.com/blog/roles-of-an-ai-team/
-- [4] https://www.linkedin.com/pulse/what-does-ai-development-team-look-like-breakdown-roles-kushan-perera-84fge
-- [5] https://enterprisersproject.com/article/2019/6/how-staff-ai-team-11-key-roles
-- [6] https://moov.ai/en/blog/nine-critical-roles-for-a-successful-ai-project
-- [7] https://www.index.dev/blog/ideal-ai-team-structure
-
+When it comes to building an AI or ML applications, many people think that this job only needs an ML Engineer or a Data Scientist. Data scientists can implement and train an ML model with predictive performance on an offline holdout dataset, given relevant training data for their use case. However, the real challenge isn't building an ML model. As shown in the following diagram, only a small fraction of a real-world ML system is composed of the ML code. The required surrounding elements are vast and complex.
+![alt text](image.png)
+There are many roles participated in an AI project to build a successful solution for an AI-related problem. Let's explore the technical side of the roles.
 
 ## Critical roles of an AI team
 ![alt text](AIRoles.drawio.png)
@@ -42,8 +35,19 @@
 - The data engineer also supports the data scientist by providing the data access, ingestion, and transformation tools and services.
 
 ### ML Engineer
-- ML Engineers are professionals who work as middle men between theoreticians who develop the algorithms and implementers who put them into practice in applications. 
+- ML Engineers are professionals who work as middle men between theoreticians who **develop the algorithms** and implementers who put the ML model into practice in applications. 
+- Machine learning engineers bridge the gap between data science and software engineering, **ensuring that models are not only accurate but also scalable and maintainable in production.**
 - Their strength is in the ability to take a trained model and then transform it into a solution that can be deployed to production.
+
+### MLOps Engineer
+- MLOps Engineers **integrate the practices of machine learning and operations** to streamline the end-to-end process of developing, deploying, and managing ML models.
+- MLOps engineers **ensure that AI models and applications can be deployed, monitored, and scaled efficiently**, **providing the operational backbone** of AI projects.
+
+### ML Researcher
+- Machine learning researchers are the ones who **design, develop, and test new algorithms, models, and methods** for various applications and domains.
+- They work on the cutting edge of technology, often conducting experimental research to solve complex problems that current methods cannot address.
+- The ML Researcher trains prediction models, often those that are **forward-looking or not production-critical**.
+
 ----
 ## Responsibilities, Knowledge and Skills
 ### ML Project Manager
@@ -83,3 +87,89 @@
     - Model Development: Developing and validating machine learning models.
     - Communication: Explaining complex technical concepts to non-technical stakeholders.
     - Problem-Solving: Applying data science techniques to solve business problems.
+
+### Data Engineer
+- Responsibilities:
+    - Design and build data pipelines to process large volumes of data.
+    - Manage data storage solutions, such as databases, data lakes, and warehouses.
+    - Ensure data quality, integrity, and availability for analysis and modeling.
+    - Collaborate with data scientists, ML engineers or MLOps engineers to provide the necessary data for model training, evaluation and deployment.
+- Knowledge:
+    - Data Architecture: Understanding of data storage, databases, and data lakes.
+    - ETL Processes: Knowledge of Extract, Transform, Load (ETL) processes and tools.
+    - Big Data Technologies: Proficiency in Hadoop, Spark, Kafka, and other big data tools.
+    - Cloud Platforms: Experience with cloud services like AWS, Azure, or Google Cloud.
+    - Data Governance: Knowledge of data quality, security, and compliance practices.
+- Skills:
+    - Pipeline Development: Building and maintaining data pipelines for data ingestion and processing.
+    - Database Management: Designing and managing databases for optimal performance.
+    - Collaboration: Working with data scientists and other roles to provide clean, accessible data.
+    - Problem-Solving: Troubleshooting data pipeline issues and optimizing data flows.
+
+### ML Engineer
+- Responsibilities:
+    - Implement and optimize machine learning models for production environments.
+    - Integrate models into software applications or services.
+    - Develop and maintain model pipelines and APIs.
+    - Monitor and retrain models to ensure continued accuracy and performance.
+    - Collaborate with data scientists to refine models and improve outcomes.
+- Knowledge:
+    - Machine Learning Algorithms: Deep understanding of algorithms like neural networks, decision trees, and clustering.
+    - Programming: Advanced skills in Python, Java, C++, or other programming languages.
+    - Software Engineering: Knowledge of software development best practices, version control, and testing.
+    - Deep Learning Frameworks: Experience with TensorFlow, Keras, PyTorch, or similar frameworks.
+    - Data Engineering: Basic knowledge of data pipelines, ETL processes, and data architecture.
+- Skills:
+    - Model Deployment: Deploying machine learning models in production environments.
+    - Optimization: Tuning models for performance and scalability.
+    - API Development: Creating APIs to integrate models with applications.
+    - Collaboration: Working closely with data scientists and software engineers to implement AI solutions.
+
+### MLOps Engineer
+- Responsibilities:
+    - Automate the deployment and monitoring of AI models and applications.
+    - Manage cloud infrastructure and resources for AI systems.
+    - Implement CI/CD/CT pipelines to streamline the development process.
+    - Ensure system security, scalability, and performance.
+- Knowledge:
+    - Cloud Platforms: Expertise in cloud services like AWS, Azure, or Google Cloud.
+    - CI/CD/CT Pipelines: Knowledge of continuous integration, continuous deployment and continuous training processes.
+    - Infrastructure as Code: Familiarity with tools like Terraform, Ansible, or Docker.
+    - System Monitoring: Understanding of monitoring tools like Prometheus, Grafana, or Splunk.
+    - Security: Knowledge of cybersecurity practices and compliance standards.
+- Skills:
+    - Automation: Automating deployment, scaling, and monitoring of AI systems.
+    - Infrastructure Management: Managing cloud infrastructure for scalability and performance.
+    - Collaboration: Working with software and machine learning engineers to ensure smooth deployment.
+    - Problem-Solving: Troubleshooting deployment issues and optimizing system performance.
+
+### ML Researcher
+- Responsibilities:
+    - Conduct research to develop new algorithms, methods and AI techniques.
+    - Prototype and test innovative AI solutions.
+    - Collaborate with academic institutions and research labs.
+    - Publish findings and contribute to the advancement of AI technology.
+- Knowledge:
+    - Advanced Machine Learning: Deep understanding of advanced ML techniques, including deep learning, reinforcement learning, and unsupervised learning.
+    - Mathematics: Strong foundation in linear algebra, calculus, and optimization.
+    - Research Methods: Knowledge of scientific research methodologies and experimental design.
+    - Programming: Proficiency in languages used for research, such as Python and MATLAB.
+    - Academic Trends: Awareness of the latest research and developments in AI and machine learning.
+- Skills:
+    - Innovation: Developing new algorithms and AI techniques.
+    - Prototyping: Building and testing prototypes of new AI models.
+    - Collaboration: Working with academic institutions and other researchers.
+    - Communication: Publishing research findings and presenting at conferences.
+
+### Surveyed links:
+- [1] https://fullstackdeeplearning.com/spring2021/lecture-13/
+- [2] https://www.linkedin.com/advice/0/what-most-important-roles-ai-project-team-5p0cf
+- [3] https://newxel.com/blog/roles-of-an-ai-team/
+- [4] https://www.linkedin.com/pulse/what-does-ai-development-team-look-like-breakdown-roles-kushan-perera-84fge
+- [5] https://enterprisersproject.com/article/2019/6/how-staff-ai-team-11-key-roles
+- [6] https://moov.ai/en/blog/nine-critical-roles-for-a-successful-ai-project
+- [7] https://www.index.dev/blog/ideal-ai-team-structure
+- [8] https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning
+- [9] https://www.coursera.org/articles/what-is-a-data-scientist
+- [10] https://neptune.ai/blog/roles-in-ml-team-and-how-they-collaborate
+- [11] https://www.run.ai/guides/machine-learning-engineering#:~:text=A%20machine%20learning%20engineer%20(ML,(AI%2FML)%20models.

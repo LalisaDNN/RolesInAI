@@ -161,6 +161,47 @@ There are many roles participated in an AI project to build a successful solutio
     - Collaboration: Working with academic institutions and other researchers.
     - Communication: Publishing research findings and presenting at conferences.
 
+## Overlaps and Collaborations
+### Data Scientist and ML Engineer
+- **Overlap**:
+    1. **Model Development**: Data Scientists typically develop machine learning models using algorithms and statistical methods, while Machine Learning Engineers focus on refining, optimizing, and deploying these models into production.
+    2. **Feature Engineering**: Both roles are involved in feature selection and engineering, which is crucial for improving model accuracy and performance.
+- **Collaboration**:
+    - Data Scientists often prototype models in development environments, which Machine Learning Engineers then translate into production-ready code.
+    - They work together to ensure models are not only accurate but also scalable and efficient when deployed.
+
+### Data Engineer and Data Scientist
+- **Overlap**:
+    1. **Data Preparation**: Data Engineers build and maintain data pipelines that clean, process, and store large datasets, which Data Scientists use for analysis and model training.
+    2. **ETL (Extract, Transform, Load) Processes**: Both roles are involved in creating ETL processes, although Data Engineers focus more on the architecture and automation, while Data Scientists may work on transforming data to suit specific analysis needs.
+- **Collaboration**:
+    - Data Scientists rely on Data Engineers to provide high-quality, accessible data, while Data Engineers may seek input from Data Scientists to understand data requirements.
+    - They work together to ensure that the data infrastructure supports the needs of machine learning models.
+
+### ML Engineer and MLOps Engineer
+- **Overlap**:
+    1. **Model Deployment**: Machine Learning Engineers work on deploying models into production, ensuring they are efficient and scalable, while MLOps Engineers handle the infrastructure and automation necessary for continuous integration, continuous deployment and continuous training (CI/CD/CT).
+    2. **Monitoring and Maintenance**: Both roles are involved in setting up monitoring systems for deployed models to track performance, detect issues, and trigger retraining when necessary.
+- **Collaboration**:
+    - Machine Learning Engineers may develop scripts or tools that MLOps Engineers integrate into automated deployment pipelines.
+    - Together, they ensure that the deployment environment is stable, secure, and optimized for performance.
+
+### Data Engineer and ML Engineer
+- **Overlap**:
+    1. **Data Pipeline Optimization**: Data Engineers create and optimize data pipelines that ML Engineers use to feed data into models.
+    2. **Scalability**: Both roles focus on making sure that data pipelines and machine learning models can scale efficiently as data volumes increase.
+- **Collaboration**:
+    - ML Engineers provide feedback to Data Engineers on data pipeline performance and requirements for model training.
+    - They collaborate to ensure that data flow from ingestion to model consumption is seamless and efficient.
+
+### ML Researcher and ML Engineer
+- **Overlap**:
+    1. **Algorithm Development**: ML Researchers focus on developing new algorithms or improving existing ones, while ML Engineers implement these algorithms in real-world applications.
+    2. **Prototyping**: Both roles may be involved in creating prototypes to test new approaches or technologies before full-scale deployment.
+- **Collaboration**:
+    - ML Researchers may develop theoretical models or new algorithms that ML Engineers then test, optimize, and deploy.
+    - They work closely to bridge the gap between research and practical application, ensuring that cutting-edge techniques can be implemented effectively in production environments.
+
 ### Surveyed links:
 - [1] https://fullstackdeeplearning.com/spring2021/lecture-13/
 - [2] https://www.linkedin.com/advice/0/what-most-important-roles-ai-project-team-5p0cf
